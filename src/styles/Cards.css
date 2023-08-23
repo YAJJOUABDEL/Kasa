@@ -74,7 +74,7 @@
     }
 }
 
-/* Version Tablette */
+
  @media (max-width: 930px) {
     .logements {
             grid-template-columns: repeat(1, minmax(280px, 1fr));
@@ -86,11 +86,3 @@
         height: 255px;
     }
 }
-
-/* Version Mobile */
-/* @media (max-width: 400px) {
-    .fiche-logement { 
-        width: 100%; 
-    } 
-    
-} */
