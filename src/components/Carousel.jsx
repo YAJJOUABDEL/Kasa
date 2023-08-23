@@ -24,10 +24,7 @@ function Carousel({pictures}) {
         const newIndex = isLastSlide ? 0 : index + 1;
         setIndex(newIndex);
       };
-    //   const goToSlide = (slideIndex) => {
-    //     setIndex(slideIndex);
-    //   };
-
+    
     return(
         <div className='carousel'>
 
