@@ -37,24 +37,3 @@
     height: 100%;
     
 }
-
-
-/* @media (max-width: 768px) {
-    .banner h1 { 
-        font-size: 1rem; 
-    }
-    .banner, .banner2 {
-        margin-top: 0px;
-        height: 111px;
-        background-position:left;
-    }
-    .banner2, .banner, .banner-commun { 
-        border-radius: 10px; 
-    }
-    .ficheLogement h1{
-        font-size: 18px;
-    }
-    .ficheLogement h4 {
-        font-size: 14px;
-    }
-} */
