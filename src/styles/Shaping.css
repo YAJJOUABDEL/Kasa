@@ -1,12 +1,11 @@
 /* Comprend les cartes et les images */
 .shaping {
 padding-bottom: 9rem;
-
 }
+
 @media screen and (max-width: 1230px){
     .shaping {
         
         margin: 0 20px;
     }
-    
-    }
+}
