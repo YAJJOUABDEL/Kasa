@@ -129,23 +129,6 @@
     }
 }
 
-/*
-
-/*Version Mobile *//*
-
-@media (max-width: 450px) {
-  .tags { margin-right: 10px; }
-  .div-tags { gap: 0; }
-  .bloc-stars { margin-top: 10px; }
-  .description-content, .equipement-content { font-size: 12px; }
-  .description-header, .equipements-header {
-      font-size: 13px;
-      padding: 8px 0px 8px 20px;
-  }
-  .span1, .span2 { font-size: 18px; }
-}*/
-
-
 @media (max-width: 401px) {
   .stars { font-size: 21px; gap: 5px; }
   .carrousel-logement img { height: 255px; }
