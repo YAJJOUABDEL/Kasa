@@ -8,6 +8,7 @@ import ErrorPage from "./Errorpage"
 import Collapse from '../Components/Collapse'
 import Carousel from '../Components/Carousel'
 
+
 import "../Styles/Card.css"
 import records from "../data-api/logements.json"
 

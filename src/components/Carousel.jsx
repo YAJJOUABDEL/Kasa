@@ -62,4 +62,5 @@ function Carousel({pictures}) {
     )
 }
 
+
 export default Carousel

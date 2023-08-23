@@ -5,6 +5,7 @@ import Banner from '../Components/Banner'
 import Footer from "./Footer"
 import Collapse from '../Components/Collapse'
 
+
 import "../Styles/About.css"
 
 function About() {

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Shaping.css"
 
+
 function Shaping({children}) {
     return (
         <div className='shaping'>

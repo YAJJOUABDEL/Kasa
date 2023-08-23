@@ -3,6 +3,7 @@ import logo from '../assets/logo.png'
 import '../Styles/Navbar.css'
 
 
+
 function Navbar() {
     const isActiveStyle = { textDecoration: "underline" };
 

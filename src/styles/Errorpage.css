@@ -25,15 +25,16 @@
 
 .error p {
     padding-top: 50px;
+    
 }
 
 
-@media (min-width: 401px) and (max-width: 550px) {
+/* @media (min-width: 401px) and (max-width: 550px) {
     .error span { font-size: 180px; }
-}
+} */
 
-@media (max-width: 400px) {
-    .error {      margin: auto 0; }
+@media (max-width: 768px) {
+    .error {      margin-top: 200px; }
     .error span { font-size: 96px; }
     .error h4 {   font-size: 18px; }
     .error a {    font-size: 14px; }

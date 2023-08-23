@@ -5,6 +5,7 @@ import "../Styles/Collapse.css"
 
 
 
+
 function Collapse({title, content}) {
 
     const [contentVisible, setContentVisible] = useState(false)

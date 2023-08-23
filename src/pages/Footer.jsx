@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../assets/LogoNoir.webp"
 import "../Styles/Footer.css"
 
+
 function Footer() {
     return (
         <footer className='footer'>

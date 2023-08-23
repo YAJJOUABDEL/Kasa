@@ -5,11 +5,12 @@ import Banner from '../Components/Banner'
 import Footer from "./Footer"
 import Cards from '../Components/Cards'
 
+
 import "../Styles/Home.css"
 
 function Home() {
     return (
-        <div role="main">
+        <div className='main' role="main">
             <Navbar />
             <Shaping>
                 <Banner>
