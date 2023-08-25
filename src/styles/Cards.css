@@ -10,7 +10,17 @@
     margin-bottom: 40px;
     padding: 50px;
 }
-
+.logementLink:after {
+    background: linear-gradient(180deg,hsla(0,0%,100%,0),rgba(0,0,0,.5));
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    border-radius: 10px;
+}
 .logements a {
      text-decoration: none;
      position: relative;
@@ -20,7 +30,7 @@
 
 .textImg {
     position: absolute;
-    bottom: 10;
+    bottom: 10px;
     left: 7px;
     font-weight: 500;
     font-size: 20px;
@@ -41,17 +51,14 @@
 }
 
 .fiche-logement h3 {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 255px;
+    bottom: 20px;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
-    align-items: center;
-    overflow: hidden;
-    color: white;
-    top: -17px;
-    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,0.5), transparent);
+    left: 20px;
+    position: absolute;
+    right: 20px;
+    z-index: 20;
 }
 
 .fiche-logement:hover {
