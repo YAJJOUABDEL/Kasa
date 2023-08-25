@@ -15,7 +15,7 @@ function Home() {
             <Shaping>
                 <Banner>
                     <div className="banner banner-commun">
-                        <h1>Chez vous, partout et ailleurs</h1>
+                        <span>Chez vous,</span><span> partout et ailleurs</span>
                     </div>
                 </Banner>
                 <Cards />
