@@ -20,6 +20,7 @@
     max-width: 95%;
     padding: 20px;
     position: relative;
+    font-size: 48px;
 }
 
 .banner2 {
@@ -29,11 +30,22 @@
     border-radius: 25px;
 }
 
-.banner h1 {
+
+
+@media (max-width: 768px) { 
+   
+.banner { 
+    font-size: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    height: 100%;
-    
+    flex-direction: column;
+    align-items: normal;
+}
+}
+
+@media (max-width: 450px) { 
+   
+    .banner { 
+        font-size: 24px;
+       
+    }
 }
