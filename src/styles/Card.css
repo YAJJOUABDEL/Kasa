@@ -90,7 +90,7 @@
 
 .collapseLogement {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     margin-top: 20px;
     width: 100%;
 }
