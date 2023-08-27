@@ -1,0 +1,34 @@
+.footer {
+    position: absolute;
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 109px;
+    background: black;
+    color: var(--colorWhite);
+    font-size: 24px;
+    bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.img_footer { 
+    margin: 0 auto; 
+}
+.img_footer img { 
+    height: 55px; 
+    width: 122px; 
+}
+.arr { 
+    height: 46px; 
+    text-align: center; 
+}
+
+@media (max-width: 450px) {
+    .arr p { 
+        font-size: 12px; 
+    }
+    
+}

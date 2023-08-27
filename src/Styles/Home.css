@@ -1,0 +1,12 @@
+:root {
+    --colorRed: #FF6060;
+    --colorWhite: #fff;
+}
+
+.main {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
