@@ -1,9 +1,7 @@
-
 import React, { useState } from 'react'
 import arrowLeft from "../assets/arrowLeft.png"
 import arrowRight from "../assets/arrowRight.png"
 import "../Styles/Carousel.css"
-
 
 function Carousel({pictures}) {
 
